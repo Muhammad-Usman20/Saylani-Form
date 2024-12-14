@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Saylani logo */
+.saylani{
+    display: flex;
+    justify-content:center ;
+}
+
+/* For second line */
+.second{
+    align-items: baseline;
+    display: flex;
+}
+
+/* fb logo adjust */
+.fb{
+    margin-left:150px ;
+}
+
+/* insta logo adjust */
+.insta{
+    margin-left: 20px;
+}
+
+/* youtube logo adjust */
+.youtube{
+    margin-left: 20px;
+}
+
+/* heading 2 adjustment */
+.head2{
+    margin-left: 275px;
+}
+
+/* for third line */
+.para{
+    color: grey;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+/* for 3 buttons */
+.head3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+/* for button 3 */
+.card{
+    margin-left: 20px;
+}
+
+/* for button 4 */
+.result{
+    margin-left: 20px;
+}
+
+/* for portal button */
+.button1 {
+    border: 1px solid #0d6db7;
+    border-radius: 30px;
+    margin-left: 200px; 
+    padding: 2px 20px;
+}
+
+/* inside portal button */
+.button1 button {
+    background: none;
+    padding: 8px 8px;
+    border: none;
+    color: #0d6db7;
+    cursor: pointer;  
+}
+
+
+
+/* for 3 buttons */
+.head3 button{
+    color:  #0d6db7;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #f0f0f0;
+    padding: 5px;
+}
+
+/* for line after button */
+.head3{
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* for all labels */
+label{
+    color:  #0d6db7;
+    font-size: 18px;
+}
+
+/* for all selects borders */
+select{
+    padding: 15px ;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    
+}
+
+/* for all input borders */
+input{
+    padding: 15px ;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    
+}
+
+.input_field{
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.country{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.city{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.input_field1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.course{
+     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.prof{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+
+.input_field2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.name{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+
+}
+
+.fathername{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.input_field3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.email{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.phone{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.input_field4{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.cnic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.fathercnic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.input_field5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.dob{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.gender{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+
+}
+
+.input_field6{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;  
+}
+
+.add{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input_field7{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+}
+
+.last{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.input_field8{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.laptop{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+} 
+
+
+.pic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right:650px ;
+   margin-bottom: 10px;
+}
+
+.ss{
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.list5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.button button{
+    color:  white;
+    background-color:#0d6db7 ;
+    
+    border: none;
+    cursor: pointer;
+    border: 2px solid #0d6db7;
+    padding: 10px 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+.a1{
+    text-decoration: none;
+    color: #0d6db7;
+}
+/* .btn1{
+    margin-top: 50px;
+} */
+
+.bf{
+    margin-left: 540px;
+    margin-top: 25px;
+    padding: 10px 210px;
+    border: 1px solid green;
+    color: black;
+    border-color: #8dc63f;
+    border-radius: 5px;
+    color: white;
+    background-color: #0d6db7;
+}
+/* .reg{
+    text-decoration: none;
+    color: black;
+} */
+ .register{
+    text-decoration: none;
+    color: #0d6db7;
+ }
